@@ -89,6 +89,45 @@ p.description {
     position: relative;
 }
 
+/*------ Price -----*/
+.price {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+}
+
+.price h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.price h2:after {
+  content: ':';
+}
+
+.price b {
+  font-size: 20px;
+  color: #e2311a;
+}
+
+.price li {
+  margin: 5px 20px 0;
+  color: #666;
+}
+
+.price li:before {
+  content: '+ ';
+  color: #e2311a;
+}
+
+.price strong {
+  font-size: 30px;
+  display: block;
+  margin-top: 6px;
+}
+
 /*--- Crust & Sauce ---*/
 .crust {
     width: 700px;
