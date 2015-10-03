@@ -326,7 +326,7 @@ p.description {
     height: 700px;
     border-radius: 800px;
     background: #ab5f2b;
-    -webkit-box-shadow: inset 0 0 40px #e5a53b;
+    box-shadow: inset 0 0 40px #e5a53b;
     border: 1px solid #ab5f2b;
 }
 
@@ -337,7 +337,7 @@ p.description {
     border-radius: 720px;
     background: #640d15;
     margin: 40px 0 0 40px;
-    -webkit-box-shadow: inset 0 0 10px #dd2f25;
+    box-shadow: inset 0 0 10px #dd2f25;
 }
 
 .cheese {
@@ -348,7 +348,7 @@ p.description {
     background: #f3d255;
     margin: 50px 0 0 50px;
     z-index: 10;
-    -webkit-box-shadow: inset 0 0 1000px #d88e24;
+    box-shadow: inset 0 0 1000px #d88e24;
 }
 
 
@@ -370,7 +370,7 @@ p.description {
     font-size: 2em;
     text-align: center;
     padding-top: 10px;
-    -webkit-box-shadow: inset 0 0 85px #711712;
+    box-shadow: inset 0 0 85px #711712;
     border: 2px solid #871b15;
     text-indent: -9999px;
     color: #fff;
@@ -800,7 +800,7 @@ p.description {
     width: 20px;
     height: 45px;
     background: #2f5e20;
-    -webkit-box-shadow: 2px 2px 2px rgba(66, 132, 45, .9);
+    box-shadow: 2px 2px 2px rgba(66, 132, 45, .9);
     margin: 250px 0 0 400px;
     z-index: 30;
 }
