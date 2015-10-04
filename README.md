@@ -60,6 +60,32 @@ Here are examples of each of the toppings HTML.
 How could you conceal and display those elements when the buttons are clicked?
 
 
+### Iteration #2: Sauce and crust options ###
+
+Wait a minute...
+This pizza comes with white sauce and gluten-free crust by default!
+Since that is a ridiculous default setting we need to fix this
+as fast as possible.
+The last two buttons on the left are supposed to handle
+special options for the sauce and crust of your pizza.
+Make it so **regular sauce** and **crust** are selected **by default**.
+Also write the JavaScript code that will let users
+**select white sauce** and **gluten-free crust** if they want to choose them.
+Again, **don't worry about updating the price**.
+
+It looks like both the crust and the sauce each have their own HTML elements.
+
+```html
+<section class="crust crust-gluten-free">
+  <section class="cheese"></section>
+  <section class="sauce sauce-white"></section>
+</section>
+```
+
+Those `crust-gluten-free` and `sauce-white` classes look suspicious.
+What happens if you remove those classes?
+
+
 License
 -------
 
