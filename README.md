@@ -135,6 +135,29 @@ When an ingredient changes, how will you know how much to add or subtract?
 First update the total price and worry about those later.
 
 
+### Iteration #5: Update ingredient itemization ###
+
+Now that the price is updating we should also **update the itemization**
+of the ingredients that make up the total price.
+It's always showing all of the ingredients, as if they were all turned on.
+Use JavaScript to **hide and show the price items**
+as they are turned on and off.
+When an ingredient is on, the user should see the price of the item.
+When an ingredient is off, the price item should be hidden.
+
+For example if the user has selected only **white sauce** and **green peppers**,
+they should see:
+
+```
+$10 cheese pizza
+  + $1 green peppers
+  + $3 white sauce
+$14
+```
+
+When an ingredient changes, how will you know which element to hide?
+
+
 License
 -------
 
