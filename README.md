@@ -86,6 +86,27 @@ Those `crust-gluten-free` and `sauce-white` classes look suspicious.
 What happens if you remove those classes?
 
 
+### Iteration #3: Change the buttons' state ###
+
+Currently our pizza builder's buttons look the same,
+no matter if the option is activated or not.
+If you notice, all the buttons have an `active` class.
+
+```html
+<button class="btn btn-pepperonni active">Pepperonni</button>
+```
+
+It seems like that class is meant for only buttons who's ingredient is _on_.
+If you remove that class, the buttons look different.
+Write some JavaScript that will **remove and add**
+the buttons' `active` class appropriately.
+In other words, if the ingredient is turned on, its button should have `active`.
+If the ingredient is off, remove the `active` class from the button.
+Also make sure that the buttons' initial state matches that of their ingredient.
+If when you first load the pizza builder there is no pepperonni,
+the pepperonni button should not be active.
+
+
 License
 -------
 
