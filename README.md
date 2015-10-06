@@ -107,6 +107,34 @@ If when you first load the pizza builder there is no pepperonni,
 the pepperonni button should not be active.
 
 
+### Iteration #4: Update price ###
+
+On the right of the pizza builder there is a price section.
+It should show the current price of your pizza,
+but it's always stuck on **$21**,
+which is the price if all the ingredients were on.
+Write the JavaScript that **update the current price** of the pizza
+**as a user clicks** the ingredient buttons to turn ingredients on and off.
+
+The element you will need to update is a `<strong>` tag.
+
+```html
+<!-- Price -->
+<aside class="panel price">
+  <!-- [...] -->
+
+  <strong>$21</strong>
+</aside>
+<!-- End Price -->
+```
+
+How can you keep track of the current price?
+When an ingredient changes, how will you know how much to add or subtract?
+
+**Don't worry about the individual price items** in above the total.
+First update the total price and worry about those later.
+
+
 License
 -------
 
